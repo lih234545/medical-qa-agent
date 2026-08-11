@@ -1,0 +1,20 @@
+# 编辑器 / IDE
+.idea/
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 向量索引构建产物（由 build 命令重建）
+data/faiss_index/
+
+# 环境与密钥
+.env
+*.env
+DASHSCOPE_API_KEY*
+
+# 系统
+.DS_Store
+Thumbs.db
